@@ -63,9 +63,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Alumno.cs" />
+    <Compile Include="Migrations\202211171942405_CrearBaseDatos.cs" />
+    <Compile Include="Migrations\202211171942405_CrearBaseDatos.designer.cs">
+      <DependentUpon>202211171942405_CrearBaseDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Carrera.cs" />
+    <Compile Include="Models\Curso.cs" />
+    <Compile Include="Models\Detalle.cs" />
+    <Compile Include="Models\Estado.cs" />
+    <Compile Include="Models\Estudiante.cs" />
+    <Compile Include="Models\Evaluacion.cs" />
+    <Compile Include="Models\Localidad.cs" />
+    <Compile Include="Models\Materia.cs" />
+    <Compile Include="Models\Plan.cs" />
+    <Compile Include="Models\Planilla.cs" />
+    <Compile Include="Models\Profesor.cs" />
+    <Compile Include="Models\Tipo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Migrations\202211171942405_CrearBaseDatos.resx">
+      <DependentUpon>202211171942405_CrearBaseDatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
