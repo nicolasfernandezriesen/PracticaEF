@@ -32,10 +32,6 @@ namespace WindowsAppPubs
 
             Store store = DacStore.TraerUno(id);
             MessageBox.Show("Store ID = " + store.stor_id + ". Store Name = " + store.stor_name + ". Store Address = " + store.stor_address + ". Store City = " + store.city + ". Store State = " + store.state + ". Store Zip = " + store.zip );
-
-            List<Store> stores = DacStore.Listar();
-
-            gridStore.DataSource = stores;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
