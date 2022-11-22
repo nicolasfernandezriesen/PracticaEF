@@ -58,12 +58,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDatos\DacAuthor.cs" />
     <Compile Include="AdminDatos\DacStore.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAuthor.Designer.cs">
+      <DependentUpon>frmAuthor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStore.cs">
       <SubType>Form</SubType>
@@ -87,6 +94,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAuthor.resx">
+      <DependentUpon>frmAuthor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStore.resx">
       <DependentUpon>frmStore.cs</DependentUpon>
